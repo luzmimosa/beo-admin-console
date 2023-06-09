@@ -1,0 +1,29 @@
+#content-container {
+    position: absolute;
+    top: 3vh;
+    bottom: 3vh;
+    left: 3vw;
+    right: 3vw;
+
+}
+
+
+nav {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+}
+
+main {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+main::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
